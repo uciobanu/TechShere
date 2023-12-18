@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>TechSphere</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1><i>T E C H S P H E R E</i></h1>
+    </header>
+
+    <div class="description">
+        <p>Aici găsești ultimele gadgeturi, accesorii și soluții smart. Experimentează inovația și confortul sub acoperișul nostru. Expertiza noastră tehnologică și atenția noastră personalizată fac din cumpărăturile tale o experiență unică. Descoperă viitorul digital la TechSphere!</p>
+    </div>
+
+    <div class="content">
+        <div class="categories">
+            <h2>Categorii</h2>
+            <ul>
+                <li><a href="#">Smartphone-uri și Tablete</a></li>
+                <li><a href="#">Laptop-uri și Computere</a></li>
+                <li><a href="#">Accesorii și Periferice</a></li>
+                <li><a href="#">Gaming</a></li>
+                <li><a href="#">Software și Aplicații</a></li>
+                <li><a href="#">Service și Reparații</a></li>
+                <li><a href="#">Educație și Training</a></li>
+                <li><a href="#">Promoții și Accesorii Exclusive</a></li>
+            </ul>
+        </div>
+
+        <div class="products">
+         
+            <div class="product">
+                <img src="https://lcdn.altex.ro/resize/media/catalog/product/S/m/2bd48d28d1c32adea0e55139a4e6434a/Smartwatch_HUAWEI_Watch_GT_3_46mm_Elite_Edition_Android-iOS_Stainless_Steel_Stainless_Steel_Strap_6_.jpg" alt="Product 1">
+                <h3>Smartwatch HUAWEI Watch GT 3 46mm Elite Edition</h3>
+                <p>Preț: 1.199 lei</p>
+                <div class="buttons">
+                    <button onclick="changeQuantity(this, 1)">+</button>
+                    <span class="quantity">0</span>
+                    <button onclick="changeQuantity(this, -1)">-</button>
+                    <br>
+                    <br>
+                    <button onclick="addToCart(this, 1199)">Adaugă în coș</button>
+                    
+                </div>
+            </div>
+
+   
+            <div class="product">
+                <img src="https://lcdn.altex.ro/resize/media/catalog/product/T/a/2bd48d28d1c32adea0e55139a4e6434a/Tableta_APPLE_iPad_9_2023_10.2_Wi-Fi_Space_Grey.jpg" alt="Product 2">
+                <h3>Tableta APPLE iPad 9 (2021), 10.2", 64GB, Wi-Fi, Space Grey</h3>
+                <p>Preț: 1.999 lei</p>
+                <div class="buttons">
+                    <button onclick="changeQuantity(this, 1)">+</button>
+                    <span class="quantity">0</span>
+                    <button onclick="changeQuantity(this, -1)">-</button>
+                    <br>
+                    <br>
+                    <button onclick="addToCart(this, 1999)">Adaugă în coș</button>
+
+                </div>
+            </div>
+
+            
+            <div class="product">
+                <img src="https://lcdn.altex.ro/resize/media/catalog/product/h/p/2bd48d28d1c32adea0e55139a4e6434a/hp_envy_360_argintiu_win11_1_e1144bd7.jpg" alt="Product 3">
+                <h3>Laptop 2 in 1 HP Envy x360 13-bf0021nn, Intel Core i5-1230U</h3>
+                <p>Preț: 5.299 lei</p>
+                <div class="buttons">
+                    <button onclick="changeQuantity(this, 1)">+</button>
+                    <span class="quantity">0</span>
+                    <button onclick="changeQuantity(this, -1)">-</button>
+                    <br>
+                    <br>
+                    <button onclick="addToCart(this, 5299)">Adaugă în coș</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="cartContents">
+            <h2>Coșul meu</h2>
+            <ul id="cartList"></ul>
+            <p>Total: <span id="total">0.00</span> lei</p>
+            <button onclick="clearCart()">Golește Coșul</button>
+            <button id="ascunde">Ascunde</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 TechSphere. All Rights Reserved.</p>
+      </footer>
+
+</body>
+</html>
+
